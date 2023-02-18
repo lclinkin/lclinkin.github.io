@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>博客详情页</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/blog_detail.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <div class="nav">
+        <img src="image/log.png" alt="">
+        <span class="title">我的博客系统</span>
+         <!-- 使用 span 把左右两侧的元素给撑开 -->
+         <span class="spacer"></span>
+        <a href="blog_list.html">主页</a>
+        <a href="blog_edit.html">写博客</a>
+        <a href="blog_login.html">注销</a>
+    </div>
+    <!-- 版心 -->
+    <div class="container">
+        <!-- 左侧区域，显示用户信息 -->
+        <div class="container-left">
+            <!-- 用户详情 -->
+            <div class="card">
+                <!-- 用户的头像 -->
+                <img src="image/head.jpg" alt="">
+                <!-- 用户名 -->
+                <h3>李康</h3>
+                <!-- 文章分类 -->
+                <div class="counter">
+                    <span>文章</span>
+                    <span>分类</span>
+                </div>
+                <div class="counter">
+                    <span>2</span>
+                    <span>1</span>
+                </div>
+            </div>
+        </div>
+        <!-- 右侧区域，显示博客列表 -->
+        <div class="container-right">
+            <!-- 使用这个 div 来放博客内容 -->
+            <div class="blog-content">
+                <!-- 博客的标题 -->
+                <h3>设计模式</h3>
+                <!-- 博客的日期 -->
+                <div class="date">2022-12-16</div>
+                <!-- 博客的内容 -->
+                <div class="detail">
+                    <p>
+                        本周工作内容：
+1、完成访客机制功能系统测试、安全测试、OA系统对接测试工作，完成提测文档整理工作；
+2、完成一键换人、客户分配推荐人、系统菜单层级等问题修复及测试工作；
+3、完成企业热力图潜客模块相关功能准生产测试工作，并完成相关功能上线。
+                    </p>
+                    <p>
+                        下周计划：
+1、继续推进项目一期遗留缺陷修复工作；
+2、开展项目二期启动会相关准备工作；
+                    </p>
+                </div>
+        </div>
+</body>
+</html>

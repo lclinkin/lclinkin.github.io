@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>博客列表页</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/blog_list.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <div class="nav">
+        <img src="image/log.png" alt="">
+        <span class="title">我的博客系统</span>
+         <!-- 使用 span 把左右两侧的元素给撑开 -->
+         <span class="spacer"></span>
+        <a href="blog_list.html">主页</a>
+        <a href="blog_edit.html">写博客</a>
+        <a href="blog_login.html">注销</a>
+    </div>
+    <!-- 版心 -->
+    <div class="container">
+        <!-- 左侧区域，显示用户信息 -->
+        <div class="container-left">
+            <!-- 用户详情 -->
+            <div class="card">
+                <!-- 用户的头像 -->
+                <img src="image/head.jpg" alt="">
+                <!-- 用户名 -->
+                <h3>李康</h3>
+                <!-- 其它信息 -->
+                <!--<a href="https://blog.csdn.net/weixin_51367845?type=blog">CSDN 地址</a>
+                <a href="#">GitHub 地址</a> -->
+                <!-- 文章分类 -->
+                <div class="counter">
+                    <span>文章</span>
+                    <span>分类</span>
+                </div>
+                <div class="counter">
+                    <span>2</span>
+                    <span>1</span>
+                </div>
+            </div>
+        </div>
+        <!-- 右侧区域，显示博客列表 -->
+        <div class="container-right">
+            <!-- 每个 blog 代表一篇博客 -->
+            <div class="blog">
+                <div class="title">设计模式</div>
+                <div class="date">2022-12-16</div>
+                <div class="desc">
+                    设计模式是为了让程序（软件）具有更好的：
+                        1. 代码重用性（即：相同功能的代码，不用多次编写）
+                        2. 可读性（即：编程规范性，便于其他程序员的阅读和理解）
+                        3. 可扩展性（即：当需要增加新的功能时，非常的方便，称为可维护）
+                        4. 可靠性（即：当我们增加新的功能后，对原来的功能没有影响）
+                        5. 使程序呈现高内聚，低耦合的特性
+                </div>
+                <a href="blog_detail1.html" class="detail">查看全文&gt;&gt;</a>
+            </div>
+            <div class="blog">
+                <div class="title">2023/2/17周进展</div>
+                <div class="date">2023-2-17</div>
+                <div class="desc">                   
+    本周工作内容：
+1、完成访客机制功能系统测试、安全测试、OA系统对接测试工作，完成提测文档整理工作；
+2、完成一键换人、客户分配推荐人、系统菜单层级等问题修复及测试工作；
+3、完成企业热力图潜客模块相关功能准生产测试工作，并完成相关功能上线。
+                </div>
+                <a href="blog_detail2.html" class="detail">查看全文&gt;&gt;</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
